@@ -1,0 +1,3 @@
+mkdir -p /etc/pki/tls/certs
+wget -O /etc/pki/tls/certs/ca-bundle.crt https://curl.se/ca/cacert.pem
+chmod 444 /etc/pki/tls/certs/ca-bundle.crt
